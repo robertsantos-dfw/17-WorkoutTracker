@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const Workout = require("./workout");
+const Workout = require("../models/workout");
 
 router.get("/api/workouts", async(req, res) => {
     //if (err) throw err;
